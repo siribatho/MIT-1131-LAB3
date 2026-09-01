@@ -1,32 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MIT 1131 LAB3 - Dominion of Sight</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siriba - itm1131 portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-<h1>👁️ Dominion of Sight</h1>
-<p class="subtitle">MIT-1131 Lab 3 - By Siriba</p>
-<div class="card">
-<h2>Welcome to My Website</h2>
-<p>This is my Lab 3 project hosted on GitHub Pages!</p>
-<button id="colorBtn">Change Background</button>
-<button id="greetBtn">Say Hello</button>
-<p id="message"></p>
-</div>
-<div class="card">
-<h3>About This Lab</h3>
-<ul>
-<li>Created with HTML, CSS & JavaScript</li>
-<li>Hosted on GitHub Pages</li>
-<li>Responsive Design</li>
-<li>Interactive Buttons</li>
-</ul>
-</div>
-</div>
-<script src="script.js"></script>
+
+    <header>
+        <h1>siriba's portfolio</h1>
+        <p>itm1131 - introduction to web development</p>
+    </header>
+
+    <nav>
+        <a href="#about">about me</a> |
+        <a href="#skills">skills</a> |
+        <a href="#courses">courses</a> |
+        <a href="https://github.com/siribatho" target="_blank">github</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>about me</h2>
+            <img src="images/myphoto.jpg" alt="my photo" width="200">
+            <p>hello! i am siriba, a student pursuing itm1131. this is my professional portfolio covering assignments 1-4.</p>
+        </section>
+
+        <section id="skills">
+            <h2>my skills</h2>
+            <ul>
+                <li>html & css</li>
+                <li>git & github</li>
+                <li>vs code</li>
+            </ul>
+
+            <h3>steps to build a website</h3>
+            <ol>
+                <li>create folder structure</li>
+                <li>write html</li>
+                <li>style with css</li>
+                <li>push to github</li>
+            </ol>
+        </section>
+
+        <section id="courses">
+            <h2>my courses - semester 1</h2>
+            <table>
+                <tr>
+                    <th>course code</th>
+                    <th>course name</th>
+                    <th>credits</th>
+                </tr>
+                <tr>
+                    <td>itm1131</td>
+                    <td>web development</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>mit1131</td>
+                    <td>computer basics</td>
+                    <td>3</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 siriba | itm1131 portfolio | contact me</p>
+    </footer>
+
 </body>
 </html>
